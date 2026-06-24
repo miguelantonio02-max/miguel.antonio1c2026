@@ -1,0 +1,106 @@
+/* Configurações Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f3f5;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Cabeçalho (Design Verde e Amarelo em degradê) */
+header {
+    background: linear-gradient(135deg, #009c3b, #ffdf00);
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #111111;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdf00; /* Cor brilha em amarelo ao passar o mouse */
+}
+
+/* Container do Conteúdo */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Caixas de Conteúdo (Cards) */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #009c3b;
+    border-bottom: 3px solid #ffdf00;
+    padding-bottom: 5px;
+    margin-top: 0;
+}
+
+/* Listas */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* Espaço para Foto (Placeholder) */
+.foto-container {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #e9ecef;
+    padding: 45px;
+    border: 2px dashed #009c3b;
+    border-radius: 8px;
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111111;
+    color: #ffffff;
+    margin-top: 40px;
+}
